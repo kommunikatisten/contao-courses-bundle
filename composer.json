@@ -1,7 +1,7 @@
 {
     "name": "kommunikatisten/contao-courses-bundle",
     "type": "contao-bundle",
-    "description": "courses bundel for Contao 4",
+    "description": "courses bundle for Contao 4",
     "homepage": "https://kommunikatisten.net",
     "license": "MIT",
     "authors": [
@@ -15,8 +15,8 @@
         }
     ],
     "require": {
-        "php": "^5.6 || ^7.2",
-        "contao/core-bundle": "4.9.*",
+        "php": "^5.6 || ^7.0",
+        "contao/core-bundle": "4.4.*",
         "symfony/framework-bundle": "^3.3"
     },
     "conflict": {
