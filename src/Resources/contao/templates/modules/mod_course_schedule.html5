@@ -1,0 +1,6 @@
+<?php
+$this->extend('block_unsearchable');
+$this->block('content');
+echo "\n\t", $this->courseSchedule, "\n";
+$this->endblock();
+?>
