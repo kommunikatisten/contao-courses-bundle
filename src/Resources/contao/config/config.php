@@ -4,7 +4,7 @@ $GLOBALS['BE_MOD']['content']['calendar'] = array
 (
     'tables'      => array(
         'tl_kom_course',
-        'tl_kom_course_schedule', 
+        'tl_kom_course_schedule',
     ),
     'table'       => array('Contao\TableWizard', 'importTable'),
     'list'        => array('Contao\ListWizard', 'importList')
@@ -12,6 +12,6 @@ $GLOBALS['BE_MOD']['content']['calendar'] = array
 */
 
 $GLOBALS['FE_MOD']['courses'] = array(
-    'courseSchedule' => 'Kommunikatisten\ModuleCourseSchedule',  
-    'courseList' => 'Kommunikatisten\ModuleCourseList',  
+    'courseschedule' => 'Kommunikatisten\ModuleCourseSchedule',
+    'courselist' => 'Kommunikatisten\ModuleCourseList',
 );
