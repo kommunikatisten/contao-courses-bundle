@@ -1,5 +1,6 @@
 {
     "name": "kommunikatisten/contao-courses-bundle",
+    "version": "0.1.0",
     "type": "contao-bundle",
     "description": "courses bundle for Contao 4",
     "homepage": "https://kommunikatisten.net",
@@ -8,15 +9,11 @@
         {
             "name": "effeff67",
             "homepage": "https://github.com/kommunikatisten"
-        },
-        {
-            "name": "Contao Community",
-            "homepage": "https://contao.org/contributors"
         }
     ],
     "require": {
-        "php": "^5.6 || ^7.0",
-        "contao/core-bundle": "4.9.*",
+        "php": "^7.0",
+        "contao/core-bundle": "^4.8",
         "symfony/framework-bundle": "^4.4"
     },
     "conflict": {
@@ -27,8 +24,6 @@
         "contao/manager-plugin": "^2.0",
         "doctrine/doctrine-cache-bundle": "^1.3",
         "friendsofphp/php-cs-fixer": "^2.12",
-        "php-http/guzzle6-adapter": "^1.1",
-        "php-http/message-factory": "^1.0.2",
         "phpunit/phpunit": "^5.7.26",
         "symfony/phpunit-bridge": "^4.2"
     },
@@ -42,11 +37,11 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Kommunikatisten\\CoursesBundle\\Tests\\": "tests/"
+            "Kommunikatisten\\CoursesBundle\\Tests\\": "test/"
         }
     },
     "support": {
-        "issues": "https://github.com/kommunikatisten/contao_courses_bundle/issues",
-        "source": "https://github.com/kommunikatisten/contao_courses_bundle"
+        "issues": "https://github.com/kommunikatisten/contao-courses-bundle/issues",
+        "source": "https://github.com/kommunikatisten/contao-courses-bundle"
     }
 }
